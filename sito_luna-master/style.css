@@ -1,0 +1,83 @@
+
+  *{
+    font-family: 'Orbitron', sans-serif; ;
+}
+
+.colore{
+    color: white;
+}
+.colore1{
+    color: rgba(255, 255, 255, 0.363);
+}
+.sfondo{
+    background:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url('./foto_luna_3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.bg-custom{
+    background-color: black
+}
+
+.padpersonalizzato{
+    padding-top: 200px;
+
+}
+
+.fontp{
+    font-size: small;
+}
+
+.cmain{
+    color: #2B9DF4;
+}
+
+.pl-custom{
+    padding-left: 25px;
+}
+
+.border-mio{
+    border-color: #2B9DF4 !important ;
+}
+
+
+.bottone{
+    background-color: unset;
+    width: 160px;
+    height: 60px;
+    border-width: 6px;
+    border-style: solid;
+    border-image: url(./sfondo_bottone.png) 22;
+}
+
+.btn{
+    display: flex;
+    text-align: right;
+}
+
+.immagine-finale{
+    position: relative;
+    background:linear-gradient(black, rgba(0, 0, 0, 0), black), url(./fot_terra_alba.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.box-finale{
+    margin-top: 25px;
+    margin-bottom: 25px; ;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background:linear-gradient(90deg, black 25%,#2B9DF4,black 75%);
+}
+.icon-custom{
+    font-size: 30px;
+    transform: rotate(-35deg);
+}
+
+a:hover {
+    font-size: 25px;
+}
